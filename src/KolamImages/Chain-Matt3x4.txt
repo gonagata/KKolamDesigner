@@ -1,0 +1,13 @@
+# ImageSize pixel, KoMaNumber X,Y, Image-Name,Date
+       332,  4, 3,              Matt3x4,130714
+# Color(R,G,B) of Ground, Tile, Anime-Line, Final-Line
+ 150, 100, 000, 190, 130, 000, 255, 000, 000, 200, 255, 200,
+# Edge ChainMode.This format is new since '13/06/10,'11/8/10,'09/09/30,'05/09/10/
+# ChainFudeNo<max10, StartX, Y, Side*2+Direct,if loops,Color(R,G,B)
+# ChainNo<max232-EdgeNumber, Edgedata<max32
+# LargestSequenceAutoCoEfficiency with shiftLength
+01, 03, 00, 02,
+001-32, 1,0,0,1,1,1,1,1,0,0,1,1,1,1,0,1,1,0,1,1,0,1,1,1,1,0,0,1,1,1,1,1,
+002-16, 0,0,1,1,1,1,0,1,1,0,1,1,0,1,1,1,
+# AllEdges48 Cor1.000withShiftL24, test
+#

@@ -1,0 +1,96 @@
+CAPTION "About KolamDesigner & Usage"
+KolamKnot Designer version 4.5.3
+Copyright (C) 200406 by NAGATA Shojiro/InterVision,                      
+Kolam Arts and Science Forum (KASF)
+
+これは使用するための操作説明書です。
+このファイルは必ず　KolamDesigner.exeと同じDirectoryに置くべき。
+対応Versionは本体の４．５．３
+読むためには　FileDialogWindow内でこのファイル名をマウス右ボタンメニュで
+当該（普通は”開く”）操作を指示する。Window内の”Open”の使用は無効。
+
+Mouse操作
+
+A Red dot and a Red bar at an edge shows a controlable KoMa-Tile and an Edge between two adjusting KoMa. 
+
+Mouse-L crossing connects/ two-point connects/ disconnects the red KoMa to an adjusting KoMa at the red edge.
+
+
+Key操作
+ Key Allows move a Red edge and a Red bar,
+ 
+(ViewDrawMode doggle),KoMaTile Mode
+ Key A of toggle to connect/disconnect at red edges
+ Key C to set KoMaType Circle O, D Diamond, X NoOne
+ 
+ Key T Tear/Drop, F of Fan, E EyePupil, H HorseSaddle 
+File menu and Key M prepares to save animated-images before Key S  and then to chancel with once more Key S
+ Key M Now sets one H-Mirror Image of one KoMa
+ Key L sets all type KoMa except of Mirror and rotated KoMa
+ Key Shift+L rotates the KoMa
+
+
+ Key S starts/stops to trace, Key R modifies no-connecting KoMa and Shift+R removes Drop KoMa
+
+ Key N draws Navi-Line, and the 1st click sets the begining of a rectagle, then the 2nd makes a connected rectangle, 
+ Key B sets the Edit Blockarea. Use Key Alt+E
+ Key G to generate Pattern, 
+ Key L to change KoMa type, Shift+L to rotate it",
+ 
+Key W (webbing) adds one more Multi-color loop in KoMaTile Mode and Shift+W deletes setting of the last color
+
+for Editting, KeyIn Alt+E, select Mouse_L for using it",
+
+(ViewDrawMode doggle),EdgeChain Mode 
+ Key 0 arc Key 1 line   of EdgeChain, Key S to start, Key X to delete back, 
+ Key Q to divide Chain in a Fude, 
+ Mouse-L at red dot with edge;arc, without edge:arc.at green dot:Start 
+
+ KeyS atAnyDotWithoutEdge:startTrace, atGreenDotRedEdge  forNewEgde,atRedDotWithRedEdge,changeStartPoint
+ Key Shift+S :at AnyDot,add newFude and changeStartPoint,
+ Key Q at AnyDot:make newChain inSameFude, Shift+Q:add previousChainData  inSameFude 
+ Key X:Delete&Back,Shift+X:deleteAllChain
+
+Menu説明
+File
+ save still Image) for saving a still Image
+ Key S:save a　still Image, KoMa +dialog name.jpg
+                                  or Chain +dialog name.jpg
+    
+
+ save animateImage) for saving animation images
+ Key S:save Animation, %s-a000-nnn.jpg", m_strFileTitle);
+
+
+
+Edit
+
+
+View
+		
+ View Modes triple-alternate KoMaTile Mode/only converting Mode/EdgeChain Mode 
+ EdgeChain, sorry, doesn't support two-point Connection,SharpBend and Outline drawing.
+
+ Drawing ways Smooth on crossing/non-smooth allowing SharpBend/Outline  
+ 
+ Generate Kolam Modes
+  0) geneMode:Sequence
+  1) geneMode:Rand H Sym
+  4) geneMode:Rand V Symm
+  2) geneMode:Rand Rot Sym
+  3) geneMode:Recursive    
+
+
+Parameter 
+ Open Dialog window of Parameteres for Designing Kolam-Knots patterns
+ to change Koma Number, a designer name etc, set KolamParameter in Menue",
+Pattern Number with NxM KoMa =2**L-C, where L=2NxM-N-M bit,C:cases, N*M(C=1)...1(N*M),etc
+ 
+Help
+ Open a text/doc file in a fileDialog window to show Instructions of Usage
+ and Version and producer etc
+   
+
+
+
+i

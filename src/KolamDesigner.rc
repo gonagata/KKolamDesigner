@@ -1,0 +1,517 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// “ú–{Œê resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\KolamDesigner.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ParameterDIALOG DIALOGEX 0, 0, 225, 144
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "Dialog for Parameters of K.K. Designer"
+FONT 10, "‚l‚r ‚oƒSƒVƒbƒN", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDITImageSizeWidth,78,7,29,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_KONO_X_N,78,24,29,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_KONO_Y_M,78,41,29,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SLEEPTIME,78,75,29,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITImageName,117,93,100,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_KOMATYPE,189,28,29,14,ES_AUTOHSCROLL
+    LTEXT           "ImageSizeWidth  max 1200pixel",IDC_STATICImageSizeW,9,
+                    10,56,17
+    EDITTEXT        IDC_KOMASIZE,189,50,29,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_TABSTOP
+    LTEXT           "KomaXNo N<=Max50",IDC_STATIC,9,31,68,10
+    LTEXT           "KomaYNo M<=Mmax",IDC_STATIC,9,45,68,9
+    LTEXT           "KomaSize in Pixel =ImageSizeWidth/N",IDC_STATIC,114,53,
+                    69,15
+    LTEXT           "ImageName etc,Don't use space",IDC_STATICImageName,9,94,
+                    102,11
+    LTEXT           "SleeptingTime for Animation",IDC_STATIC,9,72,56,16
+    LTEXT           "Color_Mode Select",IDC_STATIC,114,72,42,16
+    LTEXT           "Set KomaType, N<16 and <81 AllTheSame, N=88 AllTypes, Null, insert ""-""after anyN",
+                    IDC_STATICKOMATYPE,114,20,72,33
+    EDITTEXT        IDC_M_MAX,78,58,29,14,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_TABSTOP
+    LTEXT           "Mmax=1850/N",IDC_STATIC_M_MAX,9,59,63,8
+    PUSHBUTTON      "Ground Color",IDC_BTN1_GCOLOR,8,120,50,14
+    PUSHBUTTON      "Tile Color",IDC_BTN2_TCOLOR,59,120,42,14
+    PUSHBUTTON      "Animating Color",IDC_BTN3_ACOLOR,102,120,59,14
+    PUSHBUTTON      "FinalLine Color",IDC_BTN4_FCOLOR,162,120,55,14,NOT 
+                    WS_TABSTOP
+    LTEXT           "Color  Ground       Tile            AnimationLine         Final Line",
+                    IDC_STATIC,9,108,205,8
+    COMBOBOX        IDC_COMBO_COLOR,165,73,53,64,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Attention! No Call Back,",IDC_STATIC,114,9,101,11
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ParameterDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 218
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 137
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_ParameterDIALOG DLGINIT
+BEGIN
+    IDC_COMBO_COLOR, 0x403, 17, 0
+0x3a30, 0x6f4e, 0x6d72, 0x6c61, 0x642f, 0x6665, 0x7561, 0x746c, "\000" 
+    IDC_COMBO_COLOR, 0x403, 12, 0
+0x3a31, 0x7753, 0x6c65, 0x5f6c, 0x2f42, 0x0057, 
+    IDC_COMBO_COLOR, 0x403, 8, 0
+0x3a32, 0x694e, 0x6867, 0x0074, 
+    IDC_COMBO_COLOR, 0x403, 16, 0
+0x3a33, 0x6f43, 0x6f6c, 0x2072, 0x6f62, 0x7474, 0x6e6f, 0x0073, 
+    IDC_COMBO_COLOR, 0x403, 12, 0
+0x3a34, 0x6445, 0x6567, 0x6c2d, 0x6e69, 0x0065, 
+    0
+END
+
+#endif    // “ú–{Œê resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// ‰pŒê (±ÒØ¶) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 223, 98
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About KolamDesigner & Usage"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    DEFPUSHBUTTON   "OK",IDOK,166,7,50,14,WS_GROUP
+    LTEXT           "KolamKnot Designer version 4.5.3",IDC_STATIC,38,9,122,
+                    15,SS_NOPREFIX
+    LTEXT           "Copyright (C) 200406 by NAGATA Shojiro/InterVision,                      Kolam Arts and Science Forum (KASF)",
+                    IDC_STATIC,37,28,179,18
+    LTEXT           "to change Koma Number, a designer name etc, set KolamParameter in Menue",
+                    IDC_STATIC,13,47,174,16
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 216
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 72
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\KolamDesigner.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&OpenFile KoMa-Edge Data",    ID_FILE_OPEN
+        MENUITEM "&SaveFile KoMa-Edge Data",    ID_SAVE_FILE
+        MENUITEM SEPARATOR
+        MENUITEM "Print Image(&P)\tCtrl+P",     ID_OPEN_FILE_PRINT
+        MENUITEM "Print Preview(&V)",           ID_FILE_PRINT
+        MENUITEM "Printer Setup(&R)",           ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Save still &Image",           ID_SAVE_IMAGE_STILL
+        MENUITEM "Save ani&Mate Images",        ID_SAVE_IMAGE_ANIMATION
+        MENUITEM "Save &N-Line Image",          ID_SAVE_IMAGE_NLINE
+        MENUITEM "Save a&Utognrted Images+Data", ID_SAVE_IMAGES_DATAFILES
+        MENUITEM SEPARATOR
+        MENUITEM "e&Xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&B_BlockArea && Copy on twice", ID_EDIT_SETBLOCKAREA
+        MENUITEM "&X_cut after setting BlockArea", ID_EDIT_CUT
+        MENUITEM "&C_paste BlockArea/ Mouse_L", ID_EDIT_PASTE
+        MENUITEM "&R_rotate BlockArea Square",  ID_EDIT_ROTATE
+        MENUITEM "&M_Mirror_H_Self Symmetry",   ID_EDIT_H_SYM
+        MENUITEM "&Z_undo except of expanding", ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "&Use Mouse_L, and/or release  ", ID_EDIT_MOUSE_L
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Tool Bar",                   ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        POPUP "&Generate Kolam Modes"
+        BEGIN
+            MENUITEM "&0:Sequence, KeyG, or Shift+ for Auto", 
+                                                    ID_GENERATION_SET
+            MENUITEM "&1:Horizontal Symmetry, KeyG for Random", 
+                                                    ID_GENERATION_HVS
+            MENUITEM "&4;Vertical Symmetry, KeyG for Random", 
+                                                    ID_GENERATION_V_SYM
+            MENUITEM "&2:Rotate 90degSym, KeyG for Random", 
+                                                    ID_GENERATION_ROT
+            MENUITEM "&3:Now notwork,Recursive pattern,KeyG", 
+                                                    ID_GENE_RECURSIVE
+            MENUITEM "&Z_undo",                     ID_EDIT_UNDO
+        END
+        MENUITEM "Draw&Mode Tile/Chain/GetTileData", ID_VIEW_DRAW_IMAGES
+        MENUITEM "&FudeMode Smth/NonSmth/Outline", ID_VIEW_DRAW_FUDE
+        MENUITEM SEPARATOR
+        MENUITEM "Reset All",                   ID_VIEW_RESET_ALL
+    END
+    POPUP "&Parameter"
+    BEGIN
+        MENUITEM "o&Pen Dialog for image-parameters", ID_PARAMETER_SET
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "Help for Usage Open Manual",  ID_HELPUSAGE
+        MENUITEM "&About KolamDesigner Ver.4.5.3", ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 4,5,3,0
+ PRODUCTVERSION 4,5,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "InterVisionInstitute\0"
+            VALUE "FileDescription", "KolamKnotLoopArtDesigner MFC Application\0"
+            VALUE "FileVersion", "4, 5, 3, 0\0"
+            VALUE "InternalName", "KolamKnotLoopArtDesigner\0"
+            VALUE "LegalCopyright", "Copyright(C)2002\0"
+            VALUE "LegalTrademarks", "KASF=NAGATA.S\0"
+            VALUE "OriginalFilename", "KolamDesigner.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "KolamDesigner Application\0"
+            VALUE "ProductVersion", "4, 5, 0, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "KolamDesigner"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "KolamDesigner"
+    AFX_IDS_IDLEMESSAGE     "Key Functions as well as Mouse-L Button,Key S:start/stop trace at a red dot,In Koma Mode:A:1:cross/2:turnIn/0:Out at edge"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, Key functions, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_PARAMETER_SET        "Open Dialog get some image-parameters"
+    ID_VIEW_DRAW_IMAGES     "Switch Koma/Chain Drawing Mode, Key K or Once again in Chain Mode to get Tile(KoMaMode)Data"
+    ID_VIEW_DRAW_FUDE       "Switch a trace mode of Smooth/NonSmooth(SharpBend)/Outline"
+    ID_SAVE_FILE            "to save KoMA/EdgeChain data into a text file"
+    ID_GENERATION_SET       "Defalt is this Mode, KeyG t for Sequence Mode, KeyShft+G AutoGene, Second KeyG to stop Auto"
+    ID_EDIT_ROTATE          "Rotate BlockArea on keeping Upper-Left, Alt+E picks up for Edit-Menu"
+    ID_GENERATION_HVS       "Key G to make H and V Symmetric from upper to left sides, Key G for auto-generate patterns"
+    ID_GENERATION_ROT       "Key G to make rotated 90deg Symmetric from Upper-Left Area, Key Shft+G for auto-generate patterns"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selected area with green dots and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection with green dots and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Past BlockArea image onto starting red dot, Alt+E picks up for Edit-Menu"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Back/Undo the last action, The cursor out of Window\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_MENUITEM32784        "print the window image –¢Š®"
+    ID_GENE_RECURSIVE       "Key G to auto-generate the recursive, Shft-G to make it recursive"
+    ID_SAVE_IMAGE_STILL     "to save still Image drawn after starting to trace in the window"
+    ID_SAVE_IMAGE_ANIMATION "to save aniMate images of one string"
+    ID_SAVE_IMAGE_NLINE     "to save N-Line image"
+    ID_OPEN_FILE_PRINT      "Open an image file to Print it in Dialog with R-Mouse Menu\nPrint"
+    ID_SAVE_IMAGES_DATAFILES "to save AutoGenerated Images+Data files"
+    ID_EDIT_SETBLOCKAREA    "for setting BlockArea and copy it, do this command twice times"
+    ID_EDIT_MOUSE_L         "for setting Area or Pasting using Mouse_L, click again to release"
+    ID_GENERATION_V_SYM     "Make Vertical Symmetry from Upper Side to Lower Side"
+    ID_EDIT_H_SYM           "make Right Half side  as Left Side on Horizontal Symmetry/Mirror in Block "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_OPEN            "to open only a text file of KoMA/EdgeChain, use PrintImage for Images"
+    ID_FILE_PRINT_SETUP     "Printer Setup\nSetup"
+    ID_FILE_PRINT_PREVIEW   "View Printing Image\nPreview"
+END
+
+#endif    // ‰pŒê (±ÒØ¶) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\KolamDesigner.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,40 @@
+# ImageSize pixel, KomaXNo, KomaYNo, Image-Name, Date
+      777,         13,          5,       symmetrySample,   130627
+# Color(R,G,B) of Ground, Tile, Anime-Line, Final-Line
+ 150, 100, 000, 190, 130, 000, 255, 000, 000, 100, 255, 200,
+# Edge ChainMode.This format is new since 2005/09/10/,09/09/30,11/8/10
+# ChainFudeNo<max10, StartX, Y, Side*2+Direct,if loops,Color(R,G,B)
+# ChainNo<max232-EdgeNumber, Edgedata<max32
+# 3 largest sequence-autoCoEfficiencies with shiftLength
+01, 01, 00, 04,
+001-20, 1,0,0,0,1,1,0,1,1,0,0,0,1,0,0,1,0,1,0,0,
+# AllEdges24 1:Co0.667withLen 8, test
+02, 01, 03, 04,
+001-16, 1,0,0,0,1,1,0,0,1,0,0,0,1,1,0,0,
+# AllEdges24 1:Co0.583withLen 3, 
+03, 04, 00, 04,
+001-20, 1,0,0,0,1,1,0,1,0,0,1,0,0,0,1,1,0,1,0,0,
+# AllEdges24 1:Co0.417withLen 1, 
+04, 04, 03, 04,
+001-16, 1,0,0,0,1,1,1,0,0,0,1,0,0,1,0,0,
+# AllEdges24 1:Co0.000withLen1431655765, 
+05, 07, 02, 01,
+001-32, 0,0,1,0,0,1,1,1,0,0,0,1,0,0,1,1,1,0,0,0,1,0,0,1,1,1,0,0,0,1,0,0,
+002-04, 1,1,1,0,
+# AllEdges24 1:Co0.000withLen1071994197, 
+06, 09, 00, 03,
+001-16, 1,0,0,0,1,1,1,0,1,0,0,0,1,1,1,0,
+# AllEdges24 1:Co0.000withLen-1431655765, 
+07, 07, 01, -1,
+001-16, 1,0,0,0,1,1,1,0,1,0,0,0,1,1,1,0,
+# AllEdges24 1:Co0.000withLen1071819434, 
+08, 10, 03, 01,
+001-16, 1,0,0,0,1,1,0,0,0,1,1,1,0,0,1,1,
+# AllEdges24 1:Co0.000withLen-1431655765, 
+09, 11, 02, 03,
+001-08, 1,0,0,1,1,0,0,1,
+# AllEdges24 1:Co0.000withLen1071295146, 
+10, 12, 00, 02,
+001-24, 1,0,0,1,0,1,0,0,1,0,0,0,1,1,0,1,1,0,0,1,0,0,0,1,
+# AllEdges24 1:Co-1.#QOwithLen-6488052, 
+#
