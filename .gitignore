@@ -30,3 +30,5 @@
 *.exe
 *.out
 *.app
+
+!KolamDesigner4.6.5toHexagon130604.exe
